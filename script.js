@@ -115,7 +115,7 @@ function said(text){
       speak.innerText = "Nice Playing";
       return false;
     }
-    var starts = ["is","are","can","will","would","should"];
+    var starts = ["is","am","do","are","can","will","would","should"];
       if(starts.includes(quest.split(" ")[0])){
           speak.innerText = text + "?";
           if(quest.split(" ")[1].toLowerCase() == "you"){
